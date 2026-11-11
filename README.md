@@ -43,7 +43,7 @@ python skills/sprite-sequence/scripts/pixel_sequence_tools.py export --frames .b
 python skills/sprite-sequence/scripts/pixel_sequence_tools.py batch-guides --frames .build/sprites/S/frames --output .build/guides
 python skills/sprite-sequence/scripts/pixel_sequence_tools.py slice-sheet --input .build/sprites/S/sheet.png --rows 1 --cols 8 --anchor 64 112 --output .build/sliced
 python skills/sprite-sequence/scripts/pixel_sequence_tools.py repair-cels --help
-python skills/sprite-sequence/scripts/pixel_sequence_tools.py replay-edits --help
+python skills/sprite-sequence/scripts/pixel_sequence_tools.py replay-edits --base .build/sprites/S/frames/frame_0000.png --recipe examples/blink.json --output .build/blink
 python skills/sprite-sequence/scripts/extract_video_frames.py --help
 ~~~
 
