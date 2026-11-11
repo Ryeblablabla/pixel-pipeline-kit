@@ -1,0 +1,14 @@
+{
+  "collection": "Sprite",
+  "canvas_px": [128, 128],
+  "anchor_px": [64, 112],
+  "sample_scale": 3,
+  "ortho_scale": 2.65,
+  "target": [0, 0, 0.92],
+  "distance": 5.0,
+  "elevation_deg": 15,
+  "depth_range": [3.5, 6.5],
+  "fps": 24,
+  "frames": [1, 4, 7, 10, 13, 16, 19, 22],
+  "directions": {"S": 0, "E": 90, "N": 180, "W": 270}
+}
